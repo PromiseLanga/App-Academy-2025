@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(
+    109.7deg,
+    rgb(202, 50, 50) 5.7%,
+    rgb(252, 195, 12) 92.4%
+  );
+}
+
+.container {
+  background-color: #000000;
+  width: 750px;
+  height: 640px;
+}
+
+.main-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(252, 195, 12);
+}
+
+h1 {
+  color: red;
+}
+
+.hero-word {
+  color: #ffff;
+}
+
+.search-bar {
+  width: 250px;
+  height: 30px;
+  background: grey;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-top: 9px;
+  margin: 20px;
+}
