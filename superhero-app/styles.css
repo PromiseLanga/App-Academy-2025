@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  background-color: #000000;
+  background-image: url("../superhero-app/images/The-Avengers-Poster.webp");
   width: 750px;
   height: 640px;
 }
@@ -32,6 +32,16 @@ h1 {
   background: grey;
   border-radius: 15px;
   padding-left: 10px;
-  padding-top: 9px;
+  padding-top: 5px;
   margin: 20px;
+}
+
+.icon {
+  width: 1.3em;
+  height: 1.2em;
+  background-color: transparent;
+}
+
+.info-page {
+  color: #ffff;
 }
