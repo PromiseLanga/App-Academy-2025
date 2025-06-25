@@ -1,15 +1,19 @@
 body {
   background: linear-gradient(
-    109.7deg,
-    rgb(202, 50, 50) 5.7%,
-    rgb(252, 195, 12) 92.4%
+    109.6deg,
+    rgb(0, 0, 0) 11.2%,
+    rgb(11, 132, 145) 91.1%
   );
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
   background-image: url("../superhero-app/images/The-Avengers-Poster.webp");
-  width: 750px;
+  width: 100%;
   height: 640px;
+  margin: 0 auto;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 20px;
 }
 
 .main-bar {
@@ -19,7 +23,7 @@ body {
 }
 
 h1 {
-  color: red;
+  color: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);
 }
 
 .hero-word {
@@ -44,4 +48,153 @@ h1 {
 
 .info-page {
   color: #ffff;
+}
+
+.nav-links {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+#teams-container {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(87, 108, 117) 0%,
+    rgb(37, 50, 55) 100.2%
+  );
+  width: 100%;
+  height: 100%;
+}
+
+.teams {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1px;
+}
+
+.teams img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  object-fit: cover;
+  transition: all 150ms ease-in-out;
+}
+
+.teams img:hover {
+  transform: scale(1.2);
+}
+
+#about-team {
+  color: #000000;
+}
+
+.hereos-container {
+  background: linear-gradient(
+    109.6deg,
+    rgb(0, 0, 0) 11.2%,
+    rgb(11, 132, 145) 91.1%
+  );
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hereo-thor {
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bio,
+.stats,
+.gallery {
+  display: inline-block;
+}
+
+.bio,
+.stats {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.hereo-ironman {
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hereo-captamerica {
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hereo-blackwidow {
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hereo-hulk {
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hereo-hawkeye {
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
 }
